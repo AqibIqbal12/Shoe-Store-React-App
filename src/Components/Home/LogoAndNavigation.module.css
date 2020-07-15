@@ -1,0 +1,122 @@
+.my_logo{
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.my_nav {
+    margin-left: auto;
+    margin-top: 25px;
+    /* margin-left: 500px; */
+    font-size: 20px;
+}
+
+.my_navlink {
+    margin-left: 10px;
+    padding: 15px;
+    color: black;
+    
+}
+
+.my_navlink_active {
+    background-color:darkgrey;
+    color: white !important;
+}
+
+.my_navlink:hover {
+    background-color:darkgrey;
+    color: white !important;
+    text-decoration: none
+}
+.btn_cart{
+    margin-top: -40px; 
+    border: 0; 
+    background-color: inherit;
+}
+.btn_cart i{
+    margin-bottom: 15px;
+    color: darkGray;
+    font-size: 1.5rem; 
+    height: 10px;
+
+}
+.btn_cart i span{
+    color: black;
+    margin-left: 7px;
+    font-weight: bold;
+    margin-top: -40px;
+    display: flex;
+}
+
+
+@media screen and (max-width:900px){
+
+    .my_nav {
+        margin-left: auto;
+        margin-top: 25px;
+        /* margin-left: 500px; */
+        font-size: 15px;
+    }
+    .my_logo{
+        width: 130px;
+        height: 80px;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+    }
+}
+
+@media screen and (max-width:770px){
+
+    .my_nav {
+        margin-left: -40px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .my_logo{
+        width: 100px;
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+    }
+}
+
+@media screen and (max-width:576px) {
+    
+    .my_logo{
+        width: 100px;
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+    }    
+    
+}
+
+@media screen and (max-width:575px) {
+    
+    .my_logo{
+        width: 100px;
+        height: 70px;
+        padding-top:  10px;
+        display: block;
+        margin: auto;
+    }    
+    .my_navbar_toggle {
+        margin: 0 auto;
+    }
+    .my_navlink {
+        margin-left: 50px;
+        padding: 15px;
+        color: black;
+        
+    }
+    .btn_cart{
+        margin-top: -10px;
+        margin-left: 400px; 
+        border: 0; 
+        /* background-color: white; */
+    }
+}
