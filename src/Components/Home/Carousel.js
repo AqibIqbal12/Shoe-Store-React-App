@@ -45,7 +45,7 @@ const Carouselcomp = () => {
             </Row>
 
         </Container>
-        <h1 style={{textAlign:'center'}}>New Arrivals</h1>
+        <h1 style={{textAlign:'center'}}>New Arrivals1</h1>
         </>
     );
 }
