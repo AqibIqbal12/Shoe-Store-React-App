@@ -5,10 +5,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
 
 export default function LogoAndNavigation({ activeProduct, inActive }) {
-   
+
     const { cart } = useContext(CartContext);
     const navigate = useNavigate();
-
     const quantities = cart.map((item) => item.qty);
     let numOfItems = 0;
     if (quantities.length) numOfItems = quantities.reduce((total, q) => total + q);
@@ -16,7 +15,7 @@ export default function LogoAndNavigation({ activeProduct, inActive }) {
     return (
         <Container fluid={true}>
             <Row>
-                <Col sm={4}>
+                <Col sm={3}>
                     <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className={Style.my_logo} />
                 </Col>
                 <Col sm={8}>
@@ -30,9 +29,16 @@ export default function LogoAndNavigation({ activeProduct, inActive }) {
                                 <Link to="" className={Style.my_navlink}> Contact Us</Link>
                             </Nav>
                         </Navbar.Collapse>
-                        <button className={Style.btn_cart} onClick={() => navigate("/cart")}> <i className="fa fa-shopping-cart" style={{ }} aria-hidden="true"><span style={{  }}>{numOfItems}</span></i></button>
+
 
                     </Navbar>
+                </Col>
+                <Col sm={1}>
+                    <button className={Style.btn_cart} onClick={() => navigate("/cart")}> <i className="fa fa-shopping-cart" style={{}} aria-hidden="true"></i>
+                    {cart.length ? <div><p>{numOfItems}</p></div> : null
+                        }
+
+                    </button>
                 </Col>
             </Row>
         </Container>
