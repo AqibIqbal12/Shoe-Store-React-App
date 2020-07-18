@@ -3,6 +3,7 @@
       "id": 1,
       "name": "Jordan 3 Retro Crimson",
       "price": 56,
+      "itemLeft": 3,
       "img":
         "https://stockx-360.imgix.net/Air-Jordan-3-Retro-Crimson-2013/Images/Air-Jordan-3-Retro-Crimson-2013/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1538080256&w=1000"
     },
@@ -10,6 +11,7 @@
       "id": 2,
       "name": "Jordan 3 Retro Powder",
       "price": 50,
+      "itemLeft": 2,
       "img":
         "https://stockx-360.imgix.net/Air-Jordan-3-Retro-Powder-Blue/Images/Air-Jordan-3-Retro-Powder-Blue/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1561404267&w=1000"
     },
@@ -17,6 +19,7 @@
       "id": 3,
       "name": "Jordan 3 Retro Chlorophyll",
       "price": 53,
+      "itemLeft": 4,
       "img":
         "https://stockx-360.imgix.net/Air-Jordan-3-Retro-Chlorophyll-GS/Images/Air-Jordan-3-Retro-Chlorophyll-GS/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1554086505&w=1000"
     },
@@ -24,6 +27,7 @@
       "id": 4,
       "name": "Jordan 3 Retro Black",
       "price": 59,
+      "itemLeft": 0,
       "img":
         "https://stockx.imgix.net/Air-Jordan-3-Retro-Black-Atomic-Red-Volt-GS.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1538080256&w=1000"
     },
@@ -31,6 +35,7 @@
       "id": 5,
       "name": "Jordan 3 Retro Black White",
       "price": 55,
+      "itemLeft": 2,
       "img":
         "https://stockx.imgix.net/Air-Jordan-3-Retro-Black-White-Gum-GS.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1538080256&w=1000"
     },
@@ -38,34 +43,39 @@
       "id": 6,
       "name": "Jordan 3 Retro Rio Teal",
       "price": 60,
+      "itemLeft": 4,
       "img":
         "https://stockx.imgix.net/Air-Jordan-3-Retro-White-Crimson-Grey-GS.png?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1585815509&w=1000"
     },
-    "air-jordan-3-valor-blue": {
+    "Nike Air Zoom Pegasus 37": {
       "id": 7,
-      "name": "VALOUR BLUE",
+      "name": "Nike Air Zoom Pegasus 37",
       "price": 60,
+      "itemLeft": 2,
       "img":
-        "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+        "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/ca0ff256-80e7-4cb6-abeb-6a9b22f20696/daybreak-neptune-release-date.jpg"
     },
     "LEBRON-17": {
       "id": 8,
       "name": "GRAFFITI",
       "price": 57,
+      "itemLeft": 6,
       "img":
         "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/8559224d-38e9-4a07-8325-e36397997242/-lebron-17-graffiti-release-date.jpg"
     },
-    "air-jordan-1-zoom-racer-blue": {
+    "ACG ZOOM AIR AO BLUE VOID": {
       "id": 9,
-      "name": "RACER BLUE",
+      "name": "BLUE VOID",
       "price": 62,
+      "itemLeft": 0,
       "img":
-        "https://secure-images.nike.com/is/image/DotCom/CK6637_104_A_PREM?$SNKRS_COVER_WD$&align=0,1"
+        "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/039f4cbd-0193-4443-89ee-d1df1158d8a1/acg-zoom-air-ao-blue-void-release-date.jpg"
     },
     "air-jordan-3-volt-black": {
       "id": 10,
       "name": "VOLT BLACK",
       "price": 55,
+      "itemLeft": 3,
       "img":
         "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/e90c93db-491d-48bd-a5d4-184557edb674/womens-zoom-double-stacked-volt-black-release-date.jpg"
     },
@@ -73,6 +83,7 @@
       "id": 11,
       "name": "SPACE HIPPIE",
       "price": 54,
+      "itemLeft": 2,
       "img":
         "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/832a7814-b0a2-4e8b-9331-cea7257e85eb/space-hippie-01-volt-this-is-trash-release-date.jpg"
     },
@@ -80,6 +91,7 @@
       "id": 12,
       "name": "BARELY VOLT",
       "price": 61,
+      "itemLeft": 1,
       "img":
         "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/a311ef88-851e-4ce4-b981-0e7fe1544743/womens-zoom-double-stacked-barely-volt-release-date.jpg"
     }
