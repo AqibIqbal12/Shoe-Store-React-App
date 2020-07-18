@@ -21,6 +21,21 @@ export const CartProvider = ({ children }) => {
     });
   }
 
+  function decreaseQty(id){
+    dispatch({
+      type: 'DECREASE_QTY',
+      payload: id
+    });
+  }
+  function increaseQty(id){
+    
+    dispatch({
+      type: 'INCREASE_QTY',
+      payload: id
+    });
+    
+  }
+
   function deleteCartItem(id) {
 
     dispatch({
@@ -34,7 +49,9 @@ export const CartProvider = ({ children }) => {
       <CartContext.Provider value={{
         cart: state.cart,
         addToCart,
-        deleteCartItem
+        deleteCartItem,
+        decreaseQty,
+        increaseQty
       }}>
 
         {children}
