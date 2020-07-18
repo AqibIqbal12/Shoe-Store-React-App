@@ -88,7 +88,7 @@ const Cardcomp = ({ dataForPro }) => {
                                             <Card.Text>
                                                 Price: ${data[key].price}
                                             </Card.Text>
-                                            {cart.some((prod) => prod.id === data[key].id) ? <p><Button variant="primary" disabled={true} style={{ marginLeft: '65px' }}>In cart</Button></p> :
+                                            {cart.some((prod) => prod.id === data[key].id) ? <p><Button variant="primary" disabled={true} style={{ marginLeft: '65px' }}>Added to cart</Button></p> :
                                                 <p><Button variant="primary" onClick={(e) => { handleAddToCart(data[key].id, e) }} style={{ marginLeft: '65px' }}>Add to cart</Button></p>
                                             }
                                         </Card.Body>
